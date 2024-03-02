@@ -16,6 +16,7 @@ import java.io.*;
 
 import javax.naming.Name;
 import java.lang.Math;
+import java.text.Attribute;
 
 //import list
 //import com.mycompany.app.Week2.Book;
@@ -87,7 +88,25 @@ public class App {
         // System.out.println("truong package: " + obj.a4);
         // obj.packageMethod();
 
+        //test myMethod
+        mymethod();
 
+        //test Parameters
+        parameter("John");
+
+        //test overloading
+        int myNum1 = plusMethod(8, 5);
+        double myNum2 = plusMethod(4.3, 6.26);
+        System.out.println("int: " + myNum1);
+        System.out.println("double: " + myNum2);
+
+        //test checkAge
+        check(20);
+
+        //test class
+        Attributes Obj = new Attributes();
+        System.out.println("Name: " + Obj.fname + " "+ Obj.lname);
+        System.out.println("Number favorite is: " + Obj.NumFavorite);
 
     }
 }

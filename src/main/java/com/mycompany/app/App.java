@@ -73,8 +73,20 @@ public class App {
         p1.bite();
         Child c1 = new Child();
         c1.child();
-        c1.bite();  //khong the truy cap tu ngoai vi protected
+    //    c1.bite();  //khong the truy cap tu ngoai vi protected
         
+        //ex5
+        MyClass obj = new MyClass();
+        System.out.println("truong public: " + obj.a1);
+        obj.publicMethod();
+    //truy cap loi
+        // System.out.println("Truong private: " + obj.a2);
+        // obj.privateMethod();
+        // System.out.println("Truong protected: " + obj.a3);
+        // obj.protectedMethod();
+        // System.out.println("truong package: " + obj.a4);
+        // obj.packageMethod();
+
 
 
     }

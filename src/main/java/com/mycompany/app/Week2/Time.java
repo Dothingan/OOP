@@ -25,7 +25,7 @@ public class Time {
         setTime(h, m, s);
     }
 
-    void setTime(int h, int m, int s){
+    public void setTime(int h, int m, int s){
         
         hour = ((h >= 0 && h < 24) ? h : 0);
         minute = ((m >= 0 && m < 60) ? m : 0);
@@ -34,17 +34,17 @@ public class Time {
     }
     
     //tra ve hour
-    int getHour(){
+    public int getHour(){
         return this.hour;
     }
 
     //tra ve minute
-    int getMinute(){
+    public int getMinute(){
         return this.minute;
     }
 
     //tra ve second
-    int getSecond(){
+    public int getSecond(){
         return this.second;
     }
 

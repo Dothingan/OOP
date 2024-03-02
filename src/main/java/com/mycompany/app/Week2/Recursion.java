@@ -1,15 +1,15 @@
 package com.mycompany.app.Week2;
 
 public class Recursion {
-    int num;
+    public int num;
 
     Recursion(){};
 
     //nhan 1 so nguyen
-    Recursion(int number){};
+    public Recursion(int number){};
 
     //tra ve ket qua de quy
-    int Recursion(int number){
+    public int Recursion(int number){
         this.num = number;
         if(this.num <= 1){
             return 1;

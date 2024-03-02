@@ -3,14 +3,14 @@ package com.mycompany.app.Week2;
 public class NameNumber {
     private String lastName;
     private String telNumber;
-    public void setNameNumber(String name, String num){
-        lastName = name;
-        telNumber = num;
+    public NameNumber(String name, String num){
+        this.lastName = name;
+        this.telNumber = num;
     }
-    String getLastName(){
+    public String getLastName(){
         return lastName;
     }
-    String getTelNumber(){
+    public String getTelNumber(){
         return telNumber;
     }
 }

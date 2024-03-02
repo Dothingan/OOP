@@ -1,11 +1,12 @@
 package com.mycompany.app.Week2;
 
-class Book{
-    String title;
+public class Book{
+    public String title;
     String author;
     int numPages;
 
-    Book(String t, String a, int p){
+    public Book(){};
+    public Book(String t, String a, int p){
         this.title = t;
         this.author = a;
         this.numPages = p;

@@ -16,7 +16,12 @@ import java.io.*;
 
 import javax.naming.Name;
 import java.lang.Math;
-import java.text.Attribute;
+import java.lang.reflect.Parameter;
+
+import com.mycompany.app.Week2.Ex_on_Book.AccessControl.*;
+import com.mycompany.app.Week2.Class.*;
+import com.mycompany.app.Week2.JavaMethods.*;
+//import java.text.Attribute;
 
 //import list
 //import com.mycompany.app.Week2.Book;
@@ -25,7 +30,7 @@ import com.mycompany.app.Week2.*;
 // import Recursion;
 import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debug.debug;
 import static com.mycompany.app.Week2.Ex_on_Book.AccessControl.debug.debug.Debug;
-import static com.mycompany.app.Week2.Ex_on_Book.AccessControl.debugoff.debug.Debug;
+import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debugoff.*;
 
 
 
@@ -47,7 +52,7 @@ public class App {
         myTime.stringToScreen();
 
         //test recursion
-        int num = 3;
+        int num = 10;
         Recursion myFactorial = new Recursion(num);
         myFactorial.Recursion(num);
         System.out.println("test recursion: 1x2.."+"x"+num+"="+myFactorial.Recursion(num));
@@ -74,7 +79,8 @@ public class App {
         p1.bite();
         Child c1 = new Child();
         c1.child();
-    //    c1.bite();  //khong the truy cap tu ngoai vi protected
+        c1.bite();  
+        //c1.mama();  //khong the truy cap tu ngoai vi protected
         
         //ex5
         MyClass obj = new MyClass();
@@ -89,19 +95,23 @@ public class App {
         // obj.packageMethod();
 
         //test myMethod
-        mymethod();
+        myMethod m1 = new myMethod();
+        m1.mymethod();
 
         //test Parameters
-        parameter("John");
+        Parameters p2 = new Parameters();
+        p2.parameter("John");
 
         //test overloading
-        int myNum1 = plusMethod(8, 5);
-        double myNum2 = plusMethod(4.3, 6.26);
+        overloading o1 = new overloading();
+        int myNum1 = o1.plusMethod(8, 5);
+        double myNum2 = o1.plusMethod(4.3, 6.26);
         System.out.println("int: " + myNum1);
         System.out.println("double: " + myNum2);
 
         //test checkAge
-        check(20);
+        checkAge c2 = new checkAge();
+        c2.check(20);
 
         //test class
         Attributes Obj = new Attributes();

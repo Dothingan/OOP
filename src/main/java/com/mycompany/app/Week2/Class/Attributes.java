@@ -1,7 +1,7 @@
 package com.mycompany.app.Week2.Class;
 
 public class Attributes{
-    String fname = "Do";
-    String lname = "Ngan";
-    final int NumFavorite = "3.14159..";
+    public String fname = "Do";
+    public String lname = "Ngan";
+    public final double NumFavorite = 3.14159;
 }

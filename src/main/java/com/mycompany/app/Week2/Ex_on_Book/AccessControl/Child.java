@@ -6,7 +6,11 @@ public class Child extends Parent{
         System.out.println("La con");
     }
 
-    protected void bite(){
+    public void bite(){
         System.out.println("Ba-ka-");
+    }
+
+    protected void mama(){
+        System.out.println("watashihamamadesu");
     }
 }

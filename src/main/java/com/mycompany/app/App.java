@@ -6,17 +6,17 @@
 package com.mycompany.app;
 
 //import the whole class belong to the package of com.mycompay.app
-import com.mycompany.app.*;
+//import com.mycompany.app.*;
 
 //import built-in class
-import java.util.*;
-import java.util.List;
-import java.util.ArrayList;
-import java.io.*;
+// import java.util.*;
+// import java.util.List;
+// import java.util.ArrayList;
+// import java.io.*;
 
-import javax.naming.Name;
-import java.lang.Math;
-import java.lang.reflect.Parameter;
+// import javax.naming.Name;
+// import java.lang.Math;
+// import java.lang.reflect.Parameter;
 
 import com.mycompany.app.Week2.Ex_on_Book.AccessControl.*;
 import com.mycompany.app.Week2.Class.*;
@@ -29,8 +29,8 @@ import com.mycompany.app.Week2.*;
 // import com.mycompany.app.Week2.Book;
 // import Recursion;
 import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debug.debug;
-import static com.mycompany.app.Week2.Ex_on_Book.AccessControl.debug.debug.Debug;
-import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debugoff.*;
+// import static com.mycompany.app.Week2.Ex_on_Book.AccessControl.debug.debug.Debug;
+// import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debugoff.*;
 
 
 
@@ -54,15 +54,15 @@ public class App {
         //test recursion
         int num = 10;
         Recursion myFactorial = new Recursion(num);
-        myFactorial.Recursion(num);
-        System.out.println("test recursion: 1x2.."+"x"+num+"="+myFactorial.Recursion(num));
+        myFactorial.recursion(num);
+        System.out.println("test recursion: 1x2.."+"x"+num+"="+myFactorial.recursion(num));
 
         //test number name collection
         NameNumber [] nn = new NameNumber[2];
         nn[0] = new NameNumber("John Doe", "0919191919");
         nn[1] = new NameNumber("John Doe", "919");
         String lastName = nn[0].getLastName();
-        String number = nn[0].getTelNumber();
+        // String number = nn[0].getTelNumber();
 
         NNCollection nnC = new NNCollection();
         nnC.insert(nn[0]);
@@ -118,5 +118,11 @@ public class App {
         System.out.println("Name: " + Obj.fname + " "+ Obj.lname);
         System.out.println("Number favorite is: " + Obj.NumFavorite);
 
+        ClassMethods myCar = new ClassMethods();
+        myCar.fullThrottle();
+        myCar.speed(1000);
+
+        Constructors myCar1 = new Constructors(2004, "Bugati");
+        System.out.println(myCar1.modelYear + " " + myCar1.modelName);
     }
 }

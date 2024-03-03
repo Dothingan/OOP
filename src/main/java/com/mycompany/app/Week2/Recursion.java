@@ -6,15 +6,18 @@ public class Recursion {
     Recursion(){};
 
     //nhan 1 so nguyen
-    public Recursion(int number){};
+    public Recursion(int number){
+        this.num = number;
+    };
+
 
     //tra ve ket qua de quy
-    public int Recursion(int number){
+    public int recursion(int number){
         this.num = number;
         if(this.num <= 1){
             return 1;
         }
         else
-            return this.num*Recursion(this.num - 1);
+            return this.num*recursion(this.num - 1);
     }
 }

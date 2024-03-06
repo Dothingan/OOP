@@ -1,4 +1,4 @@
-package example;
+package com.mycompany.app.Week2.Ex_on_Book.AccessControl.InterfacesExercise1.java.example
 
 public class MyClass {
     private String message;

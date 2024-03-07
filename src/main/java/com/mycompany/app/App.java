@@ -32,7 +32,7 @@ import com.mycompany.app.Week2.code1.*;
 // import com.mycompany.app.Week2.*;
 // import com.mycompany.app.Week2.Book;
 // import Recursion;
-import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debug.debug;
+import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debugoff.debug;
 // import static com.mycompany.app.Week2.Ex_on_Book.AccessControl.debug.debug.Debug;
 // import com.mycompany.app.Week2.Ex_on_Book.AccessControl.debugoff.*;
 

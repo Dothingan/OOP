@@ -1,8 +1,8 @@
-package com.mycompany.app.Week2.Ex_on_Book.AccessControl.ex5;
+package com.mycompany.app.Week2.code2.AccessControl.ex5;
 class MyClass {
     public String publicField = "Public Field";
 
-    private String privateField = "Private Field";
+    // private String privateField = "Private Field";
 
     protected String protectedField = "Protected Field";
 
@@ -12,9 +12,9 @@ class MyClass {
         System.out.println("Public Method");
     }
 
-    private void privateMethod() {
-        System.out.println("Private Method");
-    }
+    // private void privateMethod() {
+    //     System.out.println("Private Method");
+    // }
 
     protected void protectedMethod() {
         System.out.println("Protected Method");

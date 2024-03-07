@@ -1,4 +1,4 @@
-package com.mycompany.app.Week2.Ex_on_Book.AccessControl.ex1;
+package com.mycompany.app.Week2.code2.AccessControl.ex1;
 public class MyClass {
     private String message;
 

@@ -1,4 +1,4 @@
-package com.mycompany.app.Week2.Ex_on_Book.AccessControl.ex5;
+package com.mycompany.app.Week2.code2.AccessControl.ex5;
 public class AccessMembers {
     public static void main(String[] args) {
         MyClass myObject = new MyClass();

@@ -1,4 +1,4 @@
-package com.mycompany.app.Week2.Class;
+package com.mycompany.app.Week2.code3.Class;
 
 public class Constructors {
     public int modelYear;

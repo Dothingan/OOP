@@ -1,4 +1,4 @@
-package com.mycompany.app.Week2.JavaMethods;
+package com.mycompany.app.Week2.code3.JavaMethods;
 
 public class overloading{
     public int plusMethod(int x, int y){

@@ -1,4 +1,4 @@
-package com.mycompany.app.Week2;
+package com.mycompany.app.Week2.code1;
 
 public class NameNumber {
     private String lastName;

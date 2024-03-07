@@ -1,4 +1,4 @@
-package com.mycompany.app.Week2.code2.AccessControl;
+package com.mycompany.app.Week2.code2.AccessControl.ex4;
 
 public class Parent{
     public void parent(){

@@ -8,6 +8,8 @@ package com.mycompany.app;
 import com.mycompany.app.Week2.code1.*;
 import com.mycompany.app.Week2.code2.AccessControl.*;
 import com.mycompany.app.Week2.code2.AccessControl.ex3.debugoff.debug;
+import com.mycompany.app.Week2.code2.AccessControl.ex4.Child;
+import com.mycompany.app.Week2.code2.AccessControl.ex4.Parent;
 import com.mycompany.app.Week2.code2.AccessControl.ex5.*;
 import com.mycompany.app.Week2.code3.Class.*;
 import com.mycompany.app.Week2.code3.JavaMethods.*;
@@ -52,6 +54,9 @@ public class App {
         nnC.insert(nn[1]);
         String numFind = nnC.findNumber(lastName);
         System.out.println(numFind);
+
+        //ex1
+        
 
         //ex3
         debug.Debug("Baka");

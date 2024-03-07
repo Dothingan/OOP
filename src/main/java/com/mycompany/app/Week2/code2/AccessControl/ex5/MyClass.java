@@ -1,5 +1,5 @@
 package com.mycompany.app.Week2.code2.AccessControl.ex5;
-class MyClass {
+public class MyClass {
     public String publicField = "Public Field";
 
     // private String privateField = "Private Field";

@@ -7,7 +7,8 @@ package com.mycompany.app;
 
 import com.mycompany.app.Week2.code1.*;
 import com.mycompany.app.Week2.code2.AccessControl.*;
-import com.mycompany.app.Week2.code2.AccessControl.debugoff.debug;
+import com.mycompany.app.Week2.code2.AccessControl.ex3.debugoff.debug;
+import com.mycompany.app.Week2.code2.AccessControl.ex5.*;
 import com.mycompany.app.Week2.code3.Class.*;
 import com.mycompany.app.Week2.code3.JavaMethods.*;
 
@@ -66,15 +67,15 @@ public class App {
         
         //ex5
         MyClass obj = new MyClass();
-        System.out.println("truong public: " + obj.a1);
+        System.out.println("truong public: " + obj.publicField);
         obj.publicMethod();
     //truy cap loi
-        // System.out.println("Truong private: " + obj.a2);
+        // System.out.println("Truong private: " + obj.privateField);
         // obj.privateMethod();
-        // System.out.println("Truong protected: " + obj.a3);
+        // System.out.println("Truong protected: " + obj.protectedField);
         // obj.protectedMethod();
-        // System.out.println("truong package: " + obj.a4);
-        // obj.packageMethod();
+        // System.out.println("truong package: " + obj.packageAccessField);
+        // obj.packageAccessMethod();
 
         //test myMethod
         myMethod m1 = new myMethod();

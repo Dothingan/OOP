@@ -1,4 +1,4 @@
-package com.mycompany.app.Week3.code1.Arithmetic;
+package com.mycompany.app.Week3.code_1.Arithmetic;
 
 public class Binop extends Node{
     protected Node lChild, rChild;

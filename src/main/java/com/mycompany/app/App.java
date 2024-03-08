@@ -16,11 +16,12 @@ import com.mycompany.app.Week2.code2.AccessControl.ex4.Parent;
 import com.mycompany.app.Week2.code2.AccessControl.ex5.*;
 import com.mycompany.app.Week2.code3.Class.*;
 import com.mycompany.app.Week2.code3.JavaMethods.*;
-import com.mycompany.app.Week3.code1.Arithmetic.*;
-import com.mycompany.app.Week3.code1.DisruptLecture.*;
-import com.mycompany.app.Week3.code1.GlyphTest.*;
-import com.mycompany.app.Week3.code1.Transmogrify.*;
-
+// import com.mycompany.app.Week3.code3.Polymorphimsm.Animal;
+import com.mycompany.app.Week3.code3.Polymorphimsm.*;
+import com.mycompany.app.Week3.code_1.Arithmetic.*;
+import com.mycompany.app.Week3.code_1.DisruptLecture.*;
+import com.mycompany.app.Week3.code_1.GlyphTest.*;
+import com.mycompany.app.Week3.code_1.Transmogrify.*;
 
 
 
@@ -160,6 +161,14 @@ public class App {
         s.go(); 
         s.change();
         s.go();
+
+        //test polymorphimsm
+        Animal myAnimal = new Animal();
+        Animal myPig = new Pig();
+        Animal myDog = new Dog();
+        myAnimal.animalSound();
+        myPig.animalSound();
+        myDog.animalSound();
 
     }
 }

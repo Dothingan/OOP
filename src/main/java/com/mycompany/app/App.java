@@ -138,5 +138,14 @@ public class App {
             t = new ObnoxiousTune();
         System.out.println("random number: "+ randomNum);
         noiseMaker.ring(t);
+
+        // Fool the complier by casting
+        System.out.println("Test fool complier: Upcasting OK");
+        noiseMaker.ring(tt); //tune.play()
+        noiseMaker.ring((Tune) ot); //obnoxiousTune.play()
+        noiseMaker.ring((ObnoxiousTune) ot); //obnoxiousTune.play()
+        System.out.println("Test fool complier: Down casting: Dangerous, catch error as below");
+        
+
     }
 }

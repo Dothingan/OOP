@@ -18,6 +18,7 @@ import com.mycompany.app.Week2.code3.Class.*;
 import com.mycompany.app.Week2.code3.JavaMethods.*;
 
 import com.mycompany.app.Week3.code_1.DisruptLecture.*;
+import com.mycompany.app.Week3.code_1.Arithmetic.*;
 
 
 
@@ -145,7 +146,11 @@ public class App {
         noiseMaker.ring((Tune) ot); //obnoxiousTune.play()
         noiseMaker.ring((ObnoxiousTune) ot); //obnoxiousTune.play()
         System.out.println("Test fool complier: Down casting: Dangerous, catch error as below");
-        
+
+        //test Arithmetic
+        Node n = new Plus( new Plus(new Const(1.1), new Const(2.2)), new Const(3.3));
+       
+        System.out.println("" + n.eval());
 
     }
 }

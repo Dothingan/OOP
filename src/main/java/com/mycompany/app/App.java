@@ -5,14 +5,19 @@
 
 package com.mycompany.app;
 
+// import java.util.Random;
+
+
 import com.mycompany.app.Week2.code1.*;
-import com.mycompany.app.Week2.code2.AccessControl.*;
+// import com.mycompany.app.Week2.code2.AccessControl.*;
 import com.mycompany.app.Week2.code2.AccessControl.ex3.debugoff.debug;
 import com.mycompany.app.Week2.code2.AccessControl.ex4.Child;
 import com.mycompany.app.Week2.code2.AccessControl.ex4.Parent;
 import com.mycompany.app.Week2.code2.AccessControl.ex5.*;
 import com.mycompany.app.Week2.code3.Class.*;
 import com.mycompany.app.Week2.code3.JavaMethods.*;
+
+import com.mycompany.app.Week3.code_1.DisruptLecture.*;
 
 
 
@@ -56,7 +61,7 @@ public class App {
         System.out.println(numFind);
 
         //ex1
-        
+
 
         //ex3
         debug.Debug("Baka");
@@ -113,6 +118,25 @@ public class App {
         Constructors myCar1 = new Constructors(2004, "Bugati");
         System.out.println(myCar1.modelYear + " " + myCar1.modelName);
 
+
+
+        //WEEK3
+
+        //test disrupLecture
+        CellPhone noiseMaker = new CellPhone();
+        ObnoxiousTune ot = new ObnoxiousTune();
+        Tune tt = new Tune();
+        noiseMaker.ring(ot);
+        noiseMaker.ring(tt);
         
+        // polymorphism: overiding play() with Tune and Obnoxioustune
+        double randomNum = Math.random();
+        Tune t; //t kieu Tune
+        if(randomNum > 0.5)
+            t = new Tune();
+        else
+            t = new ObnoxiousTune();
+        System.out.println("random number: "+ randomNum);
+        noiseMaker.ring(t);
     }
 }

@@ -18,6 +18,7 @@ import com.mycompany.app.Week2.code3.Class.*;
 import com.mycompany.app.Week2.code3.JavaMethods.*;
 // import com.mycompany.app.Week3.code3.Polymorphimsm.Animal;
 import com.mycompany.app.Week3.code3.Polymorphimsm.*;
+import com.mycompany.app.Week3.code3.Abstract.*;
 import com.mycompany.app.Week3.code_1.Arithmetic.*;
 import com.mycompany.app.Week3.code_1.DisruptLecture.*;
 import com.mycompany.app.Week3.code_1.GlyphTest.*;
@@ -169,6 +170,13 @@ public class App {
         myAnimal.animalSound();
         myPig.animalSound();
         myDog.animalSound();
+
+        //test abstract
+        Pig1 myPig1 = new Pig1();
+        myPig1.animalSound();
+        myPig1.sleep();
+
+
 
     }
 }

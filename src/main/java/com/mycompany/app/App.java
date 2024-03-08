@@ -20,6 +20,7 @@ import com.mycompany.app.Week2.code3.JavaMethods.*;
 import com.mycompany.app.Week3.code_1.DisruptLecture.*;
 import com.mycompany.app.Week3.code_1.Arithmetic.*;
 import com.mycompany.app.Week3.code_1.GlyphTest.*;
+import com.mycompany.app.Week3.code_1.Transmogrify.*;
 
 
 
@@ -154,6 +155,12 @@ public class App {
 
         //test Glyph
         new RoundGlyph(5);
+
+        //test transmogrify
+        Stage s = new Stage();
+        s.go(); 
+        s.change();
+        s.go();
 
     }
 }

@@ -19,6 +19,7 @@ import com.mycompany.app.Week2.code3.JavaMethods.*;
 
 import com.mycompany.app.Week3.code_1.DisruptLecture.*;
 import com.mycompany.app.Week3.code_1.Arithmetic.*;
+import com.mycompany.app.Week3.code_1.GlyphTest.*;
 
 
 
@@ -149,8 +150,10 @@ public class App {
 
         //test Arithmetic
         Node n = new Plus( new Plus(new Const(1.1), new Const(2.2)), new Const(3.3));
-       
         System.out.println("" + n.eval());
+
+        //test Glyph
+        new RoundGlyph(5);
 
     }
 }

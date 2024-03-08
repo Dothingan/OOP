@@ -1,6 +1,6 @@
 package com.mycompany.app.Week3.code_1.GlyphTest;
 
-abstract class Glyph {
+public abstract class Glyph {
     abstract void draw();
     Glyph(){    
         System.out.println("Glyph() before draw");

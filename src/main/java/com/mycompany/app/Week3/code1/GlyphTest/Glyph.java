@@ -1,4 +1,4 @@
-package com.mycompany.app.Week3.code_1.GlyphTest;
+package com.mycompany.app.Week3.code1.GlyphTest;
 
 public abstract class Glyph {
     abstract void draw();
